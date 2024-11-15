@@ -8,7 +8,7 @@
 body {
     font-family: 'Dancing Script', cursive; /* Romantic font */
     background: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
-    color: #4a4a4a;
+    color: #000; /* Black font color for all text */
     line-height: 1.8;
     overflow-x: hidden;
     animation: fadeIn 2s ease-in-out;
@@ -50,25 +50,35 @@ body {
     line-height: 1.8;
 }
 
-/* Gradual Color Shifting for Paragraphs */
+/* Background Gradient for Paragraphs */
 .message p:nth-child(1) {
-    color: #FDEDEE; /* Lightest pink */
+    background: #FDEDEE; /* Lightest pink */
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .message p:nth-child(2) {
-    color: #FACDD1;
+    background: #FACDD1;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .message p:nth-child(3) {
-    color: #F8AFB7;
+    background: #F8AFB7;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .message p:nth-child(4) {
-    color: #F48F9B;
+    background: #F48F9B;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .message p:nth-child(5) {
-    color: #EF6E80; /* Darkest pink */
+    background: #EF6E80; /* Darkest pink */
+    padding: 15px;
+    border-radius: 10px;
 }
 
 /* Common Paragraph Styling */
@@ -77,11 +87,7 @@ body {
     font-size: 1.3rem;
     animation: fadeInUp 1.2s ease-in-out;
     font-family: 'Dancing Script', cursive; /* Romantic font for paragraphs */
-}
-
-.message strong {
-    color: #e91e63;
-    font-weight: bold;
+    color: #000; /* Black font color */
 }
 
 /* Footer */
