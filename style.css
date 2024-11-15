@@ -1,0 +1,70 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #ffcccc, #ffe6e6);
+    color: #4a4a4a;
+    line-height: 1.8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    background: #ff6666;
+    color: #ffffff;
+    padding: 20px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.message {
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.message p {
+    margin-bottom: 20px;
+}
+
+.message strong {
+    color: #ff6666;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffcccc;
+    color: #4a4a4a;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+}
