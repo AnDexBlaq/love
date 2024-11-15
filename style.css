@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: 'Dancing Script', cursive; /* Romantic font */
+    font-family: 'Tangerine', serif; /* Elegant and romantic font */
     background: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
-    color: #000; /* Black font color for all text */
+    color: #000; /* Black font color */
     line-height: 1.8;
     overflow-x: hidden;
     animation: fadeIn 2s ease-in-out;
@@ -35,13 +35,13 @@ body {
     border-radius: 15px 15px 0 0;
     box-shadow: inset 0 -4px 10px rgba(0, 0, 0, 0.1);
     animation: slideDown 1.5s ease-in-out;
+    text-shadow: 4px 4px 4px #aaa; /* Text shadow for header */
 }
 
 .header h1 {
-    font-size: 2.8rem;
+    font-size: 3.5rem; /* Slightly larger font for elegance */
     font-weight: bold;
     letter-spacing: 1px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Message Section */
@@ -84,10 +84,11 @@ body {
 /* Common Paragraph Styling */
 .message p {
     margin-bottom: 20px;
-    font-size: 1.3rem;
+    font-size: 2.2rem; /* Large and flowing font size */
     animation: fadeInUp 1.2s ease-in-out;
-    font-family: 'Dancing Script', cursive; /* Romantic font for paragraphs */
+    font-family: 'Tangerine', serif; /* Romantic font */
     color: #000; /* Black font color */
+    text-shadow: 4px 4px 4px #aaa; /* Text shadow for all paragraphs */
 }
 
 /* Footer */
@@ -99,11 +100,12 @@ body {
     border-radius: 0 0 15px 15px;
     box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in-out;
+    text-shadow: 4px 4px 4px #aaa; /* Text shadow for footer */
 }
 
 .footer p {
     margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 /* Animations */
@@ -148,10 +150,10 @@ body {
     }
 
     .header h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .footer p {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 }
